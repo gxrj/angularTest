@@ -1,0 +1,16 @@
+#login-background{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url("../assets/login-wallpaper.jpg");
+    background-size: cover;
+}
+
+#login-card{
+    height: 80vh;
+    width: 45vw;
+    background-color: #eee;
+    margin: auto;
+    align-items:center;
+}
