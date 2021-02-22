@@ -3,14 +3,15 @@
     width:100vw;
     display: flex;
     justify-content: center;
-    background-image: url("../assets/login-wallpaper.jpg");
+    background-image: url("http://www.macae.rj.gov.br/midia/noticias/43077/1564767501.jpg");
     background-size: cover;
 }
 
 #login-card{
     height: 80vh;
     width: 45vw;
-    background-color: #eee;
+    background-color: #ddd;
     margin: auto;
     align-items:center;
+    opacity: 0.97;
 }

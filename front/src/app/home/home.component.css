@@ -1,0 +1,17 @@
+#home-header{
+    height:7vh;
+}
+
+#home-content{
+    height: 87vh;   
+}
+
+#home-footer{
+    float:bottom;
+    height: 5vh; 
+    text-align: center;
+}
+
+#logo{
+    height: 5vh;
+}
