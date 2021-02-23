@@ -1,11 +1,16 @@
-<nav id="home-header" class="navbar bg-primary">
-    <img id="logo" class="ms-1" src="http://www.macae.rj.gov.br/img/rodape-emblema.png"/>
-    <label></label>
-    <button class="btn btn-danger btn-sm me-1" routerLink="/login">Sair</button>
-</nav>
-<div id="home-content">
-    <router-outlet></router-outlet>
-</div>
-<div id="home-footer">
-    Feito com coração pela FeMASS
+<div class="row align-itens-center ms-3 mt-3 me-3 mb-3"> 
+    <div class = "card col">
+        <img id="image-preview" src="http://www.macae.rj.gov.br/img/rodape-emblema.png">
+        <div class = "card-body"> 
+            <h4 class = "card-title">Ocorrencias</h4>
+            <button class = "btn btn-primary btn-sm" routerLink="/main/ocorrencias">Acessar</button>
+        </div>
+    </div>
+    <div class = "card col">
+        <img id="image-preview" src="http://www.macae.rj.gov.br/img/rodape-emblema.png">
+        <div class = "card-body"> 
+            <h4 class = "card-title">Teste 1</h4>
+            <button class = "btn btn-primary btn-sm">Acessar</button>
+        </div>
+    </div>
 </div>

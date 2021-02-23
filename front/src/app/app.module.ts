@@ -4,14 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HomeComponent } from './home/home.component';
+import { MainComponent } from './main/main.component';
 import { LoginService } from './login/login.service';
+import { HomeComponent } from './home/home.component';
+import { ListaOcorrenciasComponent } from './lista-ocorrencias/lista-ocorrencias.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    MainComponent,
+    HomeComponent,
+    ListaOcorrenciasComponent
   ],
   imports: [
     BrowserModule,

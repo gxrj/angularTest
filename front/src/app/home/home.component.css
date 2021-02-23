@@ -1,17 +1,9 @@
-#home-header{
-    height:7vh;
-}
-
-#home-content{
-    height: 87vh;   
-}
-
-#home-footer{
-    float:bottom;
-    height: 5vh; 
+.card{
+    height:35vh;   
+    width: 35vw;
     text-align: center;
-}
-
-#logo{
-    height: 5vh;
+    background-color: #eee;
+    display:grid;
+    margin-left: 2%;
+    margin-right: 2%;
 }
